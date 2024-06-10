@@ -1,0 +1,17 @@
+<h1>Loops</h1>
+
+<?php
+// while loop
+
+$max = 0;
+while($max < 10){
+    print $max . "<br>";
+    $min++;
+}
+?>
+// do-while loop
+
+do{
+    print $x . "<br>";
+
+}

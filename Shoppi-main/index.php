@@ -11,24 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    Hello world welcome to my git
+<?php include_once ("template/nav.php"); ?>
+<?php require_once ("includes/db_connect.php");
     <section id="home">
         
-        <!-- Navbar -->
-        <header class="shadow-sm shadow-sky-100 py-3 px-4 bg-white sticky top-0">
-            <nav class="max-w-7xl mx-auto">
-                <div class="flex items-center justify-between">
-                    <div class="">
-                        <a href="./index.html" class="text-lg font-bold uppercase text-sky-400 hover:opacity-70">shoppi</a>
-                    </div>
-                    <div class="md:flex hidden">
-                        <ul class="flex items-center gap-4">
-                            <li><a href="#home" class="capitalize font-medium text-lg text-sky-400">home</a></li>
-                            <li><a href="#products" class="capitalize font-medium text-lg hover:text-sky-400">Products</a></li>
-                            <li><a href="#about" class="capitalize font-medium text-lg hover:text-sky-400">about</a></li>
-                            <li><a href="#contact" class="capitalize font-medium text-lg hover:text-sky-400">contact</a></li>
-                        </ul>
-                    </div>
+      
                     <div class="flex items-center gap-4 relative">
                         <!-- Fav -->
                         
@@ -68,14 +55,7 @@
             </nav>
             
            
-            <div class="my-4 hidden mobile_menu">
-                <ul class="flex flex-col items-center gap-4">
-                    <li><a href="#home" class="capitalize font-medium text-lg text-sky-400">home</a></li>
-                    <li><a href="#products" class="capitalize font-medium text-lg hover:text-sky-400">Products</a></li>
-                    <li><a href="#about" class="capitalize font-medium text-lg hover:text-sky-400">about</a></li>
-                    <li><a href="#contact" class="capitalize font-medium text-lg hover:text-sky-400">contact</a></li>
-                </ul>
-            </div>
+           
         </header>
 
         <!-- Hero Section -->

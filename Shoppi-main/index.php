@@ -41,16 +41,16 @@
                                     
                                     <div class="flex items-center justify-between gap-4 w-full">
                                         <div class="flex items-center gap-4">
-                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product3.jpg" alt="" class="w-10 h-10 rounded-lg">
-                                        <h1 class="font-medium capitalize">jacket</h1>
+                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product4.jpg" alt="" class="w-10 h-10 rounded-lg">
+                                        <h1 class="font-medium capitalize">shirt</h1>
                                     </div>
                                     
                                     </div>
 
                                     <div class="flex items-center justify-between gap-4 w-full pt-4">
                                         <div class="flex items-center gap-4">
-                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product4.jpg" alt="" class="w-10 h-10 rounded-lg">
-                                        <h1 class="font-medium capitalize">Blouse</h1>
+                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product3.jpg" alt="" class="w-10 h-10 rounded-lg">
+                                        <h1 class="font-medium capitalize">pants</h1>
                                     </div>
                                     
                                     </div>
@@ -61,8 +61,8 @@
                                     
                                     <div class="flex items-center justify-between gap-4 w-full">
                                         <div class="flex items-center gap-4">
-                                        <img src="./Images/product1.jpg" alt="" class="w-10 h-10 rounded-lg">
-                                        <h1 class="font-medium capitalize">jacket</h1>
+                                        <img src="./Images/product2.jpg" alt="" class="w-10 h-10 rounded-lg">
+                                        <h1 class="font-medium capitalize">dresses</h1>
                                     </div>
                                     
                                     </div>

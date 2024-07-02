@@ -11,8 +11,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<?php include_once ("template/nav.php"); ?>
-<?php require_once ("includes/db_connect.php");
+     <!-- Navbar -->
+  <header class="shadow-sm shadow-sky-100 py-3 px-4 bg-white sticky top-0">
+            <nav class="max-w-7xl mx-auto">
+                <div class="flex items-center justify-between">
+                    <div class="">
+                        <a href="./index.php" class="text-lg font-bold uppercase text-sky-400 hover:opacity-70">shoppi</a>
+                    </div>
+                    <div class="md:flex hidden">
+                        <ul class="flex items-center gap-4">
+                            <li><a href="#home" class="capitalize font-medium text-lg text-sky-400">home</a></li>
+                            <li><a href="#products" class="capitalize font-medium text-lg hover:text-sky-400">Products</a></li>
+                            <li><a href="#about" class="capitalize font-medium text-lg hover:text-sky-400">about</a></li>
+                            <li><a href="#contact" class="capitalize font-medium text-lg hover:text-sky-400">contact</a></li>
+                        </ul>
+                    </div>
     <section id="home">
         
       
@@ -22,6 +35,26 @@
                         
 
                           <!-- div for fav -->
+                          <div class="hidden absolute top-10 md:right-10 right-8 fav_div">
+                            <div class="bg-white shadow-md px-4 py-4 rounded-md w-80">
+                                <div class="flex flex-col items-center gap-4 w-full divide-y">
+                                    
+                                    <div class="flex items-center justify-between gap-4 w-full">
+                                        <div class="flex items-center gap-4">
+                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product3.jpg" alt="" class="w-10 h-10 rounded-lg">
+                                        <h1 class="font-medium capitalize">jacket</h1>
+                                    </div>
+                                    
+                                    </div>
+
+                                    <div class="flex items-center justify-between gap-4 w-full pt-4">
+                                        <div class="flex items-center gap-4">
+                                        <img src="C:\xampp\htdocs\Shoppi-main\Shoppi-main\Images\product4.jpg" alt="" class="w-10 h-10 rounded-lg">
+                                        <h1 class="font-medium capitalize">Blouse</h1>
+                                    </div>
+                                    
+                                    </div>
+                                    </div>
                           <div class="hidden absolute top-10 md:right-10 right-8 fav_div">
                             <div class="bg-white shadow-md px-4 py-4 rounded-md w-80">
                                 <div class="flex flex-col items-center gap-4 w-full divide-y">
@@ -110,7 +143,7 @@
         </div>
     </section>
 
-
+    
     <!-- contact Section -->
     <section class="bg-sky-100 my-20 md:py-20 py-10 px-4" Id="contact">
         <div class="max-w-7xl mx-auto">
@@ -181,7 +214,6 @@
             <p class="text-center text-sm text-gray-500 mt-5 capitalize">Copy rights reserved @ 2024 JETSONMADE</p>
         </footer>
     </section>
-
 
     <script src="./index.js"></script>
 </body>

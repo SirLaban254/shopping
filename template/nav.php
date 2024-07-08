@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Navbar -->
 <header class="shadow-sm shadow-sky-100 py-3 px-4 bg-white sticky top-0">
             <nav class="max-w-7xl mx-auto">
@@ -13,3 +14,6 @@
                             <li><a href="#contact" class="capitalize font-medium text-lg hover:text-sky-400">contact</a></li>
                         </ul>
                     </div>
+=======
+ 
+>>>>>>> eeedc95812e8e08115adc2d0d58cac791a24f413
